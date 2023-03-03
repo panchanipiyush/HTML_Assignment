@@ -1,0 +1,19 @@
+/* Using tag name as a selector here */
+h1{
+    background-color:orange;
+ }
+  
+ /* Using class as a selector here */
+ .box{
+    height:200px;
+    width:300px;
+    background-color:yellow;
+ }
+  
+ /* Using ID as a selector here */
+ #circle{
+    height:200px;
+    width:200px;
+    background-color:red;
+    border-radius:50%;
+ }

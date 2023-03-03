@@ -1,0 +1,65 @@
+<!-- •	Create simple three pages using External CSS, Internal CSS, and Inline CSS.   -->
+
+<!-- Internal CSS is also known as embedded CSS. It is generally used to style a single page. We can write internal CSS inside a <style> tag within the HTML pages. -->
+
+
+    <!DOCTYPE html>
+<html>
+  <head>
+        <style>
+    /* Using tag name as a selector here */
+    h1{
+       background-color:orange;
+    }
+ 
+    /* Using class as a selector here */
+    .box{
+       height:200px;
+       width:300px;
+       background-color:yellow;
+    }
+ 
+    /* Using ID as a selector here */
+    #circle{
+       height:200px;
+       width:200px;
+       background-color:red;
+       border-radius:50%;
+    }
+    </style>
+  </head>
+  <body>
+    <h1>Simple example of internal CSS</h1>
+    <div class="box"></div>
+    <div id="circle"></div>
+  </body>
+</html>
+
+
+    <!-- <!DOCTYPE html>
+    <html>
+    <head>
+    <style>
+        h1{
+          background-color : yellow;
+          color : red;
+        }
+
+        div{
+            height:200px;
+            width:300px;
+            background-color: rgb(175, 111, 111);
+            font-size: 50px;
+            text-align: center;
+            width: 80%;
+            margin: auto;
+        }
+    </style>
+ </head>
+      <body>
+        <h1>Simple Box Design </h1>
+        <div>ABCDEFGIJKLMNOPQRSTUVWXYZ</div>
+      </body>
+    </html>
+    -->
+    
